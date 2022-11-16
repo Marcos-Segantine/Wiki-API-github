@@ -1,0 +1,66 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    color: #eee;
+    padding: 1rem;
+    box-sizing: border;
+}
+
+.page form {
+    margin-top: 3rem;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.page form div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.page form div label {
+    max-width: 300px;
+}
+
+.page input[type="text"] {
+    background-color: #373636;
+    max-width: 250px;
+    padding: .5rem 2rem;
+    outline: 0;
+    color: white;
+    font: 1.1rem;   
+}
+
+.page button[type="submit"] {
+    background-color: #2E8B57;
+    color: white;
+    padding: 0 1rem;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 5rem 0;
+}
+
+.repo {
+    background-color: #363636;
+    padding: 1rem;
+    width: 70%;
+    max-width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
